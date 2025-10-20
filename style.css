@@ -1,0 +1,287 @@
+
+body{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body p {
+    color: #ffffff;
+}
+
+.body1{
+    background-color: black;
+}
+.main_body{
+    background-color: black;
+}
+
+ header{
+    height:100vh;
+    width:100wh;
+    background-image: url(https://ladyhattan.com//wp-content/uploads/2014/03/paris-france-photograph.jpg) ;
+    background-size:cover;
+}
+
+.navbar{
+    display:flex;
+    padding: 50px;
+    background-color:rgb(113, 2, 2);
+    border:solid 8px rgb(113, 2, 2);
+    border-radius: 180px;
+    margin-left: 200px;
+    display:inline-block;
+    height:5px;
+    width:1000px;
+    padding:0px 15px 25px 10px;
+    margin-top:50px;
+    text-align: center;
+    position:fixed;
+}
+
+.navbar a{
+   color:blue;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 100px;
+}
+
+
+.the_head{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* home */
+.video1{
+   float:right;
+}
+h3{
+color: white;
+}
+ul{
+    list-style: none;
+}
+.capital{
+   color:darkblue;
+   padding: 10px;
+   margin:5px;
+}
+.capital p{
+    color: rgb(251, 249, 249);
+}
+
+.paris{
+   background-color: rgb(92, 1, 1);
+   color: white;
+   width: 800px;
+   float:right;
+   margin-right: 100px;
+   margin-top: 140px;
+   padding: 5px;
+   border:0;
+   border-radius: 20px;
+   text-align: center;
+}
+
+
+
+
+/*Restaurant*/
+.body3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #600101;
+}
+
+.container2 li{
+    text-align: center;
+    justify-content: center;
+    border:solid 5px #050505;
+    margin-top: 15px;
+    background-color:darkblue;
+    margin-right: 10px;
+}
+
+
+/*to visit*/
+.the_header2{
+    height:100vh;
+    width:100wh;
+    background-image: url(https://images.ctfassets.net/wv75stsetqy3/MOzhvf52O4PtyxwYOkYax/99c11e9592b20dc88701d5b96a84c2af/Climate.jpg?q=60&fit=fill&fm=webp) ;
+    background-size:cover;
+}
+.the_header2 button{
+    list-style: none;
+    display: flex;
+    float: left;
+    margin-top: 300px;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-left:50px;
+    background-color: #600101;
+    font-size: 10px;
+    
+}
+.head1{
+    border:solid 5px #600101;
+    background-color: #600101;
+    margin-top: 50px;
+}
+#intro{
+    background-color: #000d50;
+}
+
+.the_visit h2{
+    color: #fcfcfc;
+}
+.the_visit p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pictures{
+    display:flex;
+    
+}
+.pictures img{
+   transition: 0.3s; 
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   margin-left:20px;
+   border:2px solid rgb(1, 14, 109);
+   border-radius: 5px;
+}
+.pictures img:hover{
+    transform:scale(1.1);
+    
+}
+/* food */
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0,0,0,0.4);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container video{
+    width:100%;
+}
+.content{
+    text-align:center;
+}
+.content h1{
+    font-size: 95px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.content a{
+    font-size: 23px;
+    color:#fff;
+    text-decoration: none;
+    border:2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition:0.3s;
+}
+.content a:hover{
+    background-color: #fff;
+    color:rgb(1, 1, 110);
+
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index:-1;
+}
+.body2{
+    background-color: #050505;
+}
+.your_visit{
+    background-image: url(https://elements.envato.com/french-rye-baguette-falls-on-the-table-filmed-on-a-DL7GGQW);
+}
+
+.head1{
+    text-align: center;
+    text-decoration:none;
+    color: #f4f0f0;
+    text-shadow: 5px 5px 5px #3859ff;
+}
+
+.glow {
+  color: #fffafa;
+  text-shadow: 5px 5px 5px #3859ff;
+  text-align: center;
+}
+
+
+
+.food1{
+    background-color: rgb(1, 39, 129);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food2{
+    background-color: rgb(2, 60, 196);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food3{
+    background-color: rgb(4, 78, 252);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food4{
+    background-color: rgb(55, 115, 255);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food5{
+    background-color: rgb(89, 138, 252);
+    margin-bottom: 5px;
+    height:400px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food6{
+    background-color: rgb(120, 159, 251);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.food7{
+    background-color: rgb(156, 185, 254);
+    margin-bottom: 5px;
+    height:450px;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.pic{
+   float:right;
+   border: 10px solid black;
+   border-radius: 10px;
+   width: 300px;
+   height:200px;
+   margin-top:10px;
+}
+.pic1{
+   float:left;
+   border: 10px solid black;
+   border-radius: 10px;
+   width: 300px;
+   height:200px;
+}
